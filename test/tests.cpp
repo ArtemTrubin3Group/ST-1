@@ -88,4 +88,4 @@ TEST(NextPrimeTest, SpecialCases) {
   EXPECT_EQ(nextPrime(0), 2);
   EXPECT_EQ(nextPrime(2147483647), 2147483659);
   EXPECT_EQ(nextPrime(2147483646), 2147483647);
-}  
+}
